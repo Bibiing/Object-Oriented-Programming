@@ -4,6 +4,15 @@ public class Q13ComputerAccount {
     private String userName;
     private String password;
 
+    /**
+     * Constructor for Q13ComputerAccount.
+     * Initializes the realName, userName, and password.
+     *
+     * @param realName The real name of the user
+     * @param userName The username of the user
+     * @param password The password for the computer account
+     */
+
     public Q13ComputerAccount(String realName, String userName, String password){
         this.realName = realName;
         this.userName = userName;
