@@ -5,6 +5,7 @@ public class Player {
     private int power;
     private int defense;
 
+    // Constructor to initialize the player's attributes
     public Player (String name, int health, int power, int defense){
         this.name = name;
         this.health = health;
@@ -12,30 +13,37 @@ public class Player {
         this.defense = defense;
     }
 
+    // Getter method for the player's name
     public String getName(){
         return name;
     }
 
+    // Getter method for the player's health
     public int getHealth(){
         return health;
     }
 
+    // Setter method to update the player's health
     public void setHealth(int health){
         this.health = health;
     }
 
+    // Getter method for the player's power
     public int getPower(){
         return power;
     }
 
+    // Setter method to update the player's power
     public void setPower(int power){
         this.power = power;
     }
 
+    // Getter method for the player's defense
     public int getDefense(){
         return defense;
     }
 
+    // Setter method to update the player's defense
     public void setDefense(int defense){
         this.defense = defense;
     }
